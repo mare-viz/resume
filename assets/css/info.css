@@ -1,0 +1,151 @@
+.info {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1230px) {
+  .info {
+    flex-direction: column;
+  }
+}
+
+.info__image {
+  border: 9px #333 solid;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 650px) {
+  .info__image {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .info__image {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .info__image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.info__info {
+  width: 600px;
+}
+
+@media only screen and (max-width: 650px) {
+  .info__info {
+    text-align: center;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .info__info {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .info__info {
+    width: 340px;
+  }
+}
+
+.info__pretext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: rgba(255, 255, 255, 0.5);
+
+  margin-bottom: 44px;
+}
+
+@media only screen and (max-width: 650px) {
+  .info__pretext {
+    font-size: 20px;
+  }
+}
+
+.info__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+
+  margin-bottom: 44px;
+}
+
+@media only screen and (max-width: 650px) {
+  .info__title {
+    font-size: 50px;
+  }
+}
+
+.info__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+
+  margin-bottom: 23px;
+}
+
+@media only screen and (max-width: 650px) {
+  .info__text {
+    font-size: 15;
+  }
+}
+
+.info__buttons {
+  display: flex;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 650px) {
+  .info__buttons {
+    justify-content: space-around;
+  }
+}
+
+.info__btn {
+  width: 177px;
+  height: 62px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+
+  background: #333333;
+  border: 3px solid #D5D5D5;
+  transition: border .1s linear;
+  border-radius: 30px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+}
+
+.info__btn:hover {
+  border: 3px solid #007CED;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/images/S.png">
+
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="/assets/css/info.css">
+  <title>Главная</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="/index.html" class="header__logo">
+      <img src="/assets/images/S.png" alt="" />
+      <div class="header__logo__text">Smirnoff</div>
+    </a>
+    <div class="header__menu" id="menu">
+      <img src="/assets/images/setting.png" alt="">
+      <nav class="header__menu__nav hide" id="nav">
+        <a href="/index.html" class="nav__items">Главная</a>
+        <a href="/resume.html" class="nav__items">Резюме</a>
+        <a href="/biography.html" class="nav__items">Биография</a>
+        <a href="/contact.html" class="nav__items">Контакты</a>
+      </nav>
+    </div>
+    <nav class="header__nav">
+      <a href="/index.html" class="nav__items">Главная</a>
+      <a href="/resume.html" class="nav__items">Резюме</a>
+      <a href="/biography.html" class="nav__items">Биография</a>
+      <a href="/contact.html" class="nav__items">Контакты</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="info">
+      <img src="/assets/images/ellipse.png" alt="" class="info__image">
+      <div class="info__info">
+        <div class="info__pretext">Java Backend Developer</div>
+        <div class="info__title">Smirnoff</div>
+        <div class="info__text">
+          Разрабатываю микросервисы на Java Spring
+        </div>
+        <div class="info__buttons">
+          <button onclick="location.href='/resume.html'" class="info__btn">Резюме</button>
+          <button onclick="location.href='/biography.html'" class="info__btn">Биография</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__social">
+      <table>
+        <tr>
+          <td class="footer__data">
+            <a href="https://github.com/mare-viz" class="footer__link" target="_blank" rel="noopener">GitHub</a>
+          </td>
+          <td class="footer__data">
+            <a href="https://t.me/weavve" class="footer__link" target="_blank" rel="noopener">Telegram</a>
+          </td>
+          <td class="footer__data">
+            <a href="https://vk.com/weavv" class="footer__link" target="_blank" rel="noopener">VK</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="footer__copyright">
+      ©WLG
+    </div>
+  </footer>
+
+  <script src="/assets/js/settings.js"></script>
+</body>
+
+</html>
